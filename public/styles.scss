@@ -1,0 +1,126 @@
+.top{
+    height:80px;
+    margin:40px;
+    .top-left{
+        width:50px;
+        height:50px;
+        float:left;
+        transform: translateY(30%);
+        .profile-photo{
+            border:2px solid #DDD;
+            border-radius: 25px;
+            width:50px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .top-right{
+        float:right;
+        transform: translateY(40%);
+         .menu{
+             display:flex;
+            li{
+                padding:10px;
+                list-style-type: none;
+                &:hover{
+                    cursor: pointer;
+                    background-color: gray;
+                }
+                a{
+                    color: black;
+                }  
+            }      
+        }    
+    }
+}
+
+.jumbotron{
+    text-align: center;
+    h1{
+        font-family: 'Sahitya', serif;
+    }
+}
+
+.trigger-enter{
+        .dropdown{
+                 display:block;
+                }
+            }
+
+.dropdown{
+    overflow:hidden;
+    position:absolute;
+    transform: translateX(-50%);
+    display:none;
+}
+
+.about-me{
+    text-align:center;
+    padding:50px;
+    h2{
+        font-weight:400;
+    }
+}
+
+.container{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:#eee;
+    .shot {
+        margin-top:50px;
+        text-align: center;
+        .portfolio-image{
+            width:350px;
+            height: auto;
+        }
+    }
+    .shot-info{
+        text-align:center;
+        padding-left:3.5em;
+        padding-right:3.5em;
+        margin-bottom:50px;
+        .project-button{
+            display:inline-block;
+            background-color:#374760;
+            color:white;
+            font-size:20px;
+            transition: 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            // -o-transition: all 1s ease;
+            border-radius:4px;
+            height:36px;
+            width:18em;
+            cursor:pointer;
+            &:hover{
+                background-color:#242f40;         
+            }
+        }
+    }
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-weight: 300;
+    font-size:1.4em;
+    &:hover{
+        text-decoration:none;
+        cursor: pointer;
+    }
+    &:target{
+        transition:1.2s ease-in;
+    }
+}
+
+p{
+    font-family: Lato, 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 300;
+    font-size:1.6em;
+}
+

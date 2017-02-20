@@ -1,0 +1,99 @@
+.top {
+  height: 80px;
+  margin: 40px; }
+  .top .top-left {
+    width: 50px;
+    height: 50px;
+    float: left;
+    transform: translateY(30%); }
+    .top .top-left .profile-photo {
+      border: 2px solid #DDD;
+      border-radius: 25px;
+      width: 50px; }
+      .top .top-left .profile-photo:hover {
+        cursor: pointer; }
+  .top .top-right {
+    float: right;
+    transform: translateY(40%); }
+    .top .top-right .menu {
+      display: flex; }
+      .top .top-right .menu li {
+        padding: 10px;
+        list-style-type: none; }
+        .top .top-right .menu li:hover {
+          cursor: pointer;
+          background-color: gray; }
+        .top .top-right .menu li a {
+          color: black; }
+
+.jumbotron {
+  text-align: center; }
+  .jumbotron h1 {
+    font-family: 'Sahitya', serif; }
+
+.trigger-enter .dropdown {
+  display: block; }
+
+.dropdown {
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+  display: none; }
+
+.about-me {
+  text-align: center;
+  padding: 50px; }
+  .about-me h2 {
+    font-weight: 400; }
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #eee; }
+  .container .shot {
+    margin-top: 50px;
+    text-align: center; }
+    .container .shot .portfolio-image {
+      width: 350px;
+      height: auto; }
+  .container .shot-info {
+    text-align: center;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    margin-bottom: 50px; }
+    .container .shot-info .project-button {
+      display: inline-block;
+      background-color: #374760;
+      color: white;
+      font-size: 20px;
+      transition: 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      border-radius: 4px;
+      height: 36px;
+      width: 18em;
+      cursor: pointer; }
+      .container .shot-info .project-button:hover {
+        background-color: #242f40; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.4em; }
+  a:hover {
+    text-decoration: none;
+    cursor: pointer; }
+  a:target {
+    transition: 1.2s ease-in; }
+
+p {
+  font-family: Lato, 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 300;
+  font-size: 1.6em; }
+
+/*# sourceMappingURL=styles.css.map */
