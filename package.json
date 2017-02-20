@@ -1,0 +1,24 @@
+{
+  "name": "online-portfolio",
+  "version": "1.0.0",
+  "description": "Online presence",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrimsonPug/portfolio.git"
+  },
+  "author": "Ikram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrimsonPug/portfolio/issues"
+  },
+  "homepage": "https://github.com/CrimsonPug/portfolio#readme"
+}
