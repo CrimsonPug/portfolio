@@ -46,6 +46,26 @@
   .about-me h2 {
     font-weight: 400; }
 
+.skills {
+  margin: 40px;
+  text-align: center; }
+  .skills h2 {
+    font-weight: 400; }
+  .skills .skill-wrapper {
+    margin-top: 20px; }
+    .skills .skill-wrapper .skill {
+      padding: 5px 5px 5px 5px;
+      background-color: #eee; }
+      .skills .skill-wrapper .skill h3 {
+        font-weight: 400; }
+      .skills .skill-wrapper .skill ul {
+        text-align: left; }
+        .skills .skill-wrapper .skill ul li {
+          list-style-type: none;
+          font-family: Lato, 'Helvetica Neue', 'Helvetica', sans-serif;
+          font-weight: 300;
+          font-size: 1.7rem; }
+
 .container {
   margin-top: 20px;
   margin-bottom: 20px;
