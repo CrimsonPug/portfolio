@@ -25,7 +25,7 @@ $break-small: 600px;
             li{
                 padding:10px;
                 list-style-type: none;
-                @media screen and (min-width: $break-small) {     
+                @media screen and (max-width: $break-small) {     
                         font-size:2em;    
                     }
                 &:hover{
