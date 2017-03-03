@@ -20,6 +20,9 @@
       .top .top-right .menu li {
         padding: 10px;
         list-style-type: none; }
+        @media screen and (min-width: 600px) {
+          .top .top-right .menu li {
+            font-size: 2em; } }
         .top .top-right .menu li:hover {
           cursor: pointer;
           background-color: gray; }
@@ -58,6 +61,10 @@
       background-color: #eee; }
       .skills .skill-wrapper .skill h3 {
         font-weight: 400; }
+      .skills .skill-wrapper .skill .skill-icon {
+        margin: 22px 0; }
+        .skills .skill-wrapper .skill .skill-icon img {
+          width: 50%; }
       .skills .skill-wrapper .skill ul {
         text-align: left; }
         .skills .skill-wrapper .skill ul li {
@@ -65,40 +72,48 @@
           font-family: Lato, 'Helvetica Neue', 'Helvetica', sans-serif;
           font-weight: 300;
           font-size: 1.7rem; }
+          @media screen and (max-width: 600px) {
+            .skills .skill-wrapper .skill ul li {
+              font-size: 3em; } }
 
-.container {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #eee; }
-  .container .shot {
-    margin-top: 50px;
-    text-align: center; }
-    .container .shot .portfolio-image {
-      width: 350px;
-      height: auto; }
-  .container .shot-info {
-    text-align: center;
-    padding-left: 3.5em;
-    padding-right: 3.5em;
-    margin-bottom: 50px; }
-    .container .shot-info .project-button {
-      display: inline-block;
-      background-color: #374760;
-      color: white;
-      font-size: 20px;
-      transition: 0.3s ease-in-out;
-      -webkit-transition: all 0.3s ease;
-      -moz-transition: all 0.3s ease;
-      border-radius: 4px;
-      height: 36px;
-      width: 18em;
-      cursor: pointer; }
-      .container .shot-info .project-button:hover {
-        background-color: #242f40; }
+.work {
+  margin-top: 70px;
+  text-align: center; }
+  .work h2 {
+    font-weight: 400; }
+  .work .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #eee; }
+    .work .container .shot {
+      margin-top: 50px;
+      text-align: center; }
+      .work .container .shot .portfolio-image {
+        width: 350px;
+        height: auto; }
+    .work .container .shot-info {
+      text-align: center;
+      padding-left: 3.5em;
+      padding-right: 3.5em;
+      margin-bottom: 50px; }
+      .work .container .shot-info .project-button {
+        display: inline-block;
+        background-color: #374760;
+        color: white;
+        font-size: 20px;
+        transition: 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        border-radius: 4px;
+        height: 36px;
+        width: 18em;
+        cursor: pointer; }
+        .work .container .shot-info .project-button:hover {
+          background-color: #242f40; }
 
 a {
   text-decoration: none;
@@ -115,6 +130,9 @@ p {
   font-family: Lato, 'Helvetica Neue', 'Helvetica', sans-serif;
   font-weight: 300;
   font-size: 1.6em; }
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 3em; } }
 
 footer {
   width: 100%;
